@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.gabriel.alarmmanagerexample.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Single Alarm"
+        android:id="@+id/btn_singleAlarm" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Repeating Alarm"
+        android:id="@+id/btn_repeatingAlarm" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Inexact Repeating Alarm"
+        android:id="@+id/btn_inexactRepeatingAlarm" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Repeating Alarm"
+        android:id="@+id/btn_cancelRepeatingAlarm" />
+
+
+
+</LinearLayout>
